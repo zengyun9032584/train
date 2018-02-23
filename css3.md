@@ -1,56 +1,6 @@
 # CSS3 练习
- <style>
- .content-ver {
-	width: 200px;
-	height: 100px;
-	margin-top:20px;
-	background: linear-gradient(
-		to right,
-		rgb(100,5,34) 33.3%,
-		gray 0,
-		gray 66.6%,
-		rgb(152, 110,45) 0
-	);
- }
- .content-ali {
-	width: 200px;
-	height: 100px;
-	margin-top:20px;
-	background: linear-gradient(
-		rgb(100,5,34) 33.3%,
-		gray 0,
-		gray 66.6%,
-		rgb(152, 110,45) 0
-	);
-}
-.content-bevel {
-	width: 200px;
-	height: 100px;
-	margin-top:20px;
-	background: linear-gradient(
-		45deg,
-		rgb(152, 110,45) 25%,
-		rgb(85, 136, 187) 0,
-		rgb(85, 136, 187) 50%,
-		rgb(152, 110, 45) 0,
-		rgb(152, 110,45) 75%,
-		rgb(85, 136, 187) 0
-	);
-	background-size: 50px 50px;
-}
-.triangle {
-	width:0;
-	height:0;
-	border:20px solid;
-	border-color:transparent transparent red transparent;
-}
-.trapezoid {
-	hieght:15px;
-	width:15px;
-	border:20px solid;
-	border-color:transparent transparent yellow transparent;
-}
- </style>
+<link href="./css/style.css" rel="stylesheet"></link>
+
 <ol>
  <li>垂直条纹</li>
  <div class="content-ver"></div>
@@ -142,7 +92,7 @@
    <div class="trapezoid"></div>
 	<style>
 .trapezoid {
-	hieght:15px;
+	height:15px;
 	width:15px;
 	border:20px solid;
 	border-color:transparent transparent yellow transparent;
