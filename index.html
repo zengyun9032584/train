@@ -1,12 +1,51 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-    </head>
-    <body>
-        <input id="foo" />
-        <button onClick="show()">show</button>
-        <button onclick="changeName()">change</button>
-    </body>
-    <script src="./jsBind.js"></script>
+
+<head>
+    <meta charset="utf-8">
+</head>
+
+<body>
+    <style>
+        .flex {
+            display: flex;
+        }
+
+        .left {
+            background-color: rebeccapurple;
+            height: 200px;
+            flex: 1;
+        }
+
+        .right {
+            background-color: red;
+            height: 200px;
+            width: 100px;
+        }
+
+        #divMiddle {
+            width:200px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border: 1px solid blue;
+        }
+        .content {
+            height:100px;
+            width: 100px;
+            border: 1px solid green;
+        }
+    </style>
+    <div class="flex">
+        <div class="left"></div>
+        <div class="right"></div>
+    </div>
+    <div id="divMiddle">
+            <div class="content">
+
+            </div>
+    </div>
+</body>
+<script src="./jsBind.js"></script>
+
 </html>
