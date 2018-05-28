@@ -12,6 +12,11 @@ testPromise().then(function (param) {
     console.log(param);
 })
 
+/**
+ *
+ * 定义promise
+ * @param {any} fn 
+ */
 function myPromise(fn) {
     var value = null,
         callbacks = [];
